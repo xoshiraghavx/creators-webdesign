@@ -290,7 +290,7 @@ h3{
     transition: all 0.3s ease;
 }
 .facilities-col1 img{
-    width: 100%;
+    width: 90%;
     height: 80%;
     border-radius: 10px;
 }
@@ -440,7 +440,6 @@ h3{
 .about-col img{
     width: 80%;
     height: 90%;
-    border-radius: 200%;
     margin-left: 50px;
 }
 .about-col h1{
@@ -468,7 +467,6 @@ h3{
 .perk-right img{
     width: 80%;
     height: 60%;
-    padding-left: 10%;
 }
 @media(max-width: 700px){
     .rowy {
@@ -501,7 +499,7 @@ h3{
 .row-2{
     display: flex;
     width: 100%;
-    margin: 1% 0%;
+    margin: 3% 1%;
 }
 @media(max-width: 700px){
     .row-2{
