@@ -436,7 +436,6 @@ h3{
 #about-para{
     margin-top: 1%;
 }
-
 .about-col img{
     width: 80%;
     height: 90%;
@@ -452,8 +451,11 @@ h3{
 .about-us li{
     color: white;
 }
+<<<<<<< Updated upstream
 
 
+=======
+>>>>>>> Stashed changes
 .perks h1{
     justify-content: left;
     text-align: left;
@@ -470,7 +472,15 @@ h3{
 .perk-right img{
     width: 80%;
     height: 60%;
-    border-radius: 200%;
+    padding-left: 10%;
+}
+@media(max-width: 700px){
+    .perk-right img{
+        width: 60%;
+        height: 50%;
+        padding-left: 10%;
+        flex-direction: column-reverse;
+    }
 }
 .theme h1{
     padding-top: 0;
