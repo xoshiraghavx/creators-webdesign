@@ -453,9 +453,7 @@ h3{
     color: white;
 }
 
-.rules{
-     
-}
+
 .perks h1{
     justify-content: left;
     text-align: left;
@@ -560,8 +558,112 @@ h3{
     justify-content: center;
     margin: 10% 0%;
 }
-.winner-col{
+
+.winner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.winner1{
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.win-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.win-left img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.win-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.win-right h1{
+    font-size: 2rem;
+}
+
+/* winner 2 */
+.winner2{
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.win2-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.win2-right img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.win2-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.win2-left h1{
+    font-size: 2rem;
+}
+
+/* winner 3 */
+.winner3{
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.win3-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.win3-left img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.win3-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.win3-right h1{
+    font-size: 2rem;
 }
